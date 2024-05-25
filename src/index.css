@@ -1,0 +1,231 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
+  height: 100vh;
+  background-color: rgba(23, 112, 68, 0);
+}
+
+.n-title {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 300px;
+  margin-bottom: 420px;
+}
+
+h1{
+  font-size: 70px;
+  font-weight:lighter;
+  padding-right: 100px;
+}
+
+h3 {
+  font-weight:lighter;
+  padding-right: 100px;
+}
+
+.n-title h1 {
+  font-size: 120px;
+  font-weight:lighter;
+  padding-right: 100px;
+  
+}
+
+.bck {
+  display: block;
+  margin: 0 0.5rem;
+  animation: backInLeft;
+  animation-duration: 2s;
+}
+
+.ups {
+  padding-left: 300px;
+  display: block;
+  margin: 0 0.5rem;
+  animation: backInRight;
+  animation-duration: 2s;
+}
+
+.n-title p{
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: rgb(197, 188, 155);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-inline: 70px;
+  position: fixed;
+  gap: 800px;
+  top: 0;
+  margin: 0 auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+.navbar h2 {
+  color: rgba(0, 0, 0, 0.616);
+}
+
+.links ul{
+  display: flex;
+  gap: 30px;
+}
+
+.links ul a {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.about img {
+  width: 600px;
+  border-radius: 100%;
+}
+
+.about-content {
+  width: 500px;
+}
+
+.about p {
+  padding-bottom: 30px;
+}
+
+.about-title h1 {
+  font-size: 70px;
+  font-weight:lighter;
+  display: block;
+  margin: 0 0.5rem;
+  animation: fadeInTopLeft;
+  animation-duration: 2s; 
+  padding-bottom: 50px;
+}
+
+.education {
+  padding-top: 250px;
+  padding-bottom: 400px;
+}
+
+.education-title {
+  padding-bottom: 50px;
+}
+
+.education-content h3 {
+  color: rgb(207, 186, 107);
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.work {
+  padding-top: 100px;
+}
+
+.work-content h1 {
+  padding-bottom:60px;
+}
+
+.work-content p {
+  width: 500px;
+  padding-bottom: 100px;
+}
+
+.img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+} 
+
+.img {
+  color: black;
+  font-weight:bolder;
+}
+
+.img a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.img img {
+  width: 500px;
+}
+
+.contact {
+  padding-bottom: 60px;
+  grid-area: contact;
+}
+
+.contact h1 {
+  font-size:90px;
+  color: rgba(35, 46, 99, 0.993);
+  margin-bottom: 20px;
+  margin-top: 240px;
+}
+
+.contact img {
+  width: 30px;
+}
+
+.box {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 10px;
+}
+
+.box a {
+  margin-top: 2px;
+  color: black;
+}
+
+.footer {
+  padding-top: 200px;
+}
